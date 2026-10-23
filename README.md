@@ -2,6 +2,8 @@
 
 [Working Note](docs/Working_Note.md) · [PDF](docs/Working_Note.pdf) · [Code](attack.py) · [Selected experiments](experiments/README.md) · [Reproducibility](docs/REPRODUCIBILITY.md)
 
+**🏆 5th place (solo gold medal) and one of the two Best Working Note Award winners.** [Winners announcement](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/750806)
+
 > **The public attack already worked. My problem was how long it took to replay.**
 
 This repository accompanies **Compiling User Messages into Faster Tool Calls: Model-Specific Replay Optimization for GPT-OSS and Gemma**, my solution writeup for [AI Agent Security — Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/writeups/compiling-user-messages-into-faster-tool-calls).
@@ -15,7 +17,13 @@ I used HTTP as a stable test case to study the complete execution path, includin
 | Selected email entry, v57 | 40.155 | **40.365** |
 | Highest-public entry, v50 | 115.240 | 0.000 |
 
-The selected entry finished **5th**. These are recorded competition results, not scores produced by this repository’s verification script. Source: [final-result audit](research/notes/REPORTE_FINAL_KAGGLE_AI_SECURITY_BETA.md).
+The selected entry finished **5th** (solo gold medal), and the working note was one of the two winners of the competition's **Best Working Note Award** ([winners announcement](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/750806)). The scores above are recorded competition results, not scores produced by this repository’s verification script. Source: [final-result audit](research/notes/REPORTE_FINAL_KAGGLE_AI_SECURITY_BETA.md).
+
+### Judges' rationale
+
+> "Provides a disciplined, reusable method for optimizing complete tool-use executions while preserving their intended outcomes. Controlled comparisons, repeated measurements, and informative negative results distinguish real improvements from apparent speedups, offering valuable guidance for measuring and understanding agent behavior."
+>
+> — [Winners of Working Note](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/discussion/750806)
 
 ## Start here
 
